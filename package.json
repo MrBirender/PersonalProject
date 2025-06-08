@@ -1,0 +1,35 @@
+{
+  "name": "personalproject",
+  "version": "1.0.0",
+  "description": "Building Concepts",
+  "main": "server.js",
+  "scripts": {
+    "test": "no commands",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "lint": "eslint .",
+     "lint_fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrBirender/PersonalProject.git"
+  },
+  "keywords": [
+    "B_I_R_E_N_D_E_R"
+  ],
+  "author": "Birender",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrBirender/PersonalProject/issues"
+  },
+  "homepage": "https://github.com/MrBirender/PersonalProject#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "dotenv": "^16.5.0",
+    "eslint": "^9.28.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

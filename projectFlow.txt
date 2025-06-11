@@ -1,0 +1,3 @@
+# go to prisma documenation and setup that in the project
+
+# use mysql for that instead of postgres

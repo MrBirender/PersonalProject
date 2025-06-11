@@ -7,7 +7,7 @@ module.exports = defineConfig([
     files: ["**/*.js"],
     languageOptions: {
       ecmaVersion: "latest",
-      sourceType: "commonjs", // ✅ Since you're using `require`
+      sourceType: "commonjs",
       globals: {
         require: "readonly",
         module: "readonly",

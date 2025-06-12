@@ -5,10 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "no commands",
-    "dev": "nodemon server.js",
+    "server": "nodemon server.js",
     "start": "node server.js",
     "lint": "eslint .",
-     "lint_fix": "eslint . --fix"
+    "lint_fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "nodemon": "^3.1.10"
   },
   "dependencies": {
+    "@prisma/client": "^6.9.0",
     "express": "^5.1.0"
   }
 }
